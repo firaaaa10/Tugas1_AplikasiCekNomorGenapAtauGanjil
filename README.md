@@ -9,9 +9,15 @@ menampilkan hasilnya pada JLabel
 
 ## 2. Komponen GUI: 
 JFrame, JPanel, JLabel, JTextField, JButton
+- JTextField: Untuk input angka.
+- JButton: Tombol untuk memeriksa angka.
+- JLabel: Untuk menampilkan hasil pemeriksaan (Genap/Ganjil). 
 
 ## 3. Logika Program: 
 Kondisional (if-else), Validasi input
+- Implementasikan logika di tombol cekButton untuk memeriksa apakah angka yang dimasukkan adalah genap atau ganjil.
+- Gunakan kondisional if-else untuk memisahkan angka genap dari ganjil.
+- Tambahkan validasi untuk memastikan input hanya angka.
 
 ## 4. Events:
 A.ActionListener untuk tombol Cek
@@ -98,7 +104,7 @@ private void inputFieldFocusGained(java.awt.event.FocusEvent evt) {
     } 
 ~~~
 
-    ## Contoh Gambar Project Setelah di Run
+## Contoh Gambar Project Setelah di Run
 ![](https://github.com/firaaaa10/CekNomorGenapAtauGanjil/blob/main/Cuplikan%20layar%202024-11-04%20102016.png)
  
 
@@ -118,5 +124,3 @@ private void inputFieldFocusGained(java.awt.event.FocusEvent evt) {
 Nama   : Siti Safira
 NPM    : 2210010336
 
-Nama:Muhammad Azhari Nur Pratama
-NPM:2210010326
